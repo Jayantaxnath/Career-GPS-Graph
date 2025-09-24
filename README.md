@@ -151,24 +151,72 @@ export default function Layout() {
 
 ## 🚀 Getting Started
 
-1. **Clone the project**
+### For Fork & Clone Setup
+
+If you've forked this repository, follow these steps to get it running locally:
+
+1. **Fork the Repository**
+   - Click the "Fork" button on the GitHub repository page
+   - This creates your own copy of the repository
+
+2. **Clone Your Fork**
    ```bash
-   git clone <repository-url>
-   cd career-gps-proto
+   git clone https://github.com/YOUR_USERNAME/Career-GPS-Graph.git
+   cd Career-GPS-Graph
    ```
 
-2. **Install dependencies**
+3. **Install Node.js (if not already installed)**
+   - Download and install Node.js (version 18 or higher) from [nodejs.org](https://nodejs.org/)
+   - Verify installation: `node --version` and `npm --version`
+
+4. **Install Project Dependencies**
    ```bash
    npm install
    ```
+   This installs all required packages including Next.js, React, TypeScript, TailwindCSS, and the force graph library.
 
-3. **Start development server**
+5. **Start the Development Server**
    ```bash
    npm run dev
    ```
 
-4. **Open browser**
-   Navigate to [http://localhost:3000](http://localhost:3000)
+6. **Open in Browser**
+   - Navigate to [http://localhost:3000](http://localhost:3000)
+   - You should see the Career GPS Graph component running
+
+7. **Verify Everything Works**
+   - The main page should display the interactive career graph
+   - Try the demo page at [http://localhost:3000/demo](http://localhost:3000/demo)
+   - Test dark mode toggle functionality
+   - Use navigation controls (zoom, pan, reset)
+
+### Alternative Package Managers
+
+If you prefer yarn or pnpm:
+
+```bash
+# Using Yarn
+yarn install
+yarn dev
+
+# Using pnpm
+pnpm install
+pnpm dev
+```
+
+### Troubleshooting Common Issues
+
+- **Port 3000 already in use**: Try `npm run dev -- -p 3001` to use a different port
+- **Node version issues**: Ensure you're using Node.js 18 or higher
+- **Permission errors**: Try `npm cache clean --force` and reinstall
+- **TypeScript errors**: Run `npm run build` to check for any build issues
+
+### First Steps After Setup
+
+1. Explore the main component at `/components/CareerGPSGraph.tsx`
+2. Check the data structure in `/data/careerGraphData.ts`
+3. Customize the career data for your needs
+4. Test your changes with `npm run build` before deploying
 
 ## 📁 Project Structure
 
