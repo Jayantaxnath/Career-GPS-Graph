@@ -2,6 +2,8 @@
 
 An interactive 2D Career GPS Graph React component built with Next.js 14, TypeScript, and TailwindCSS. This component provides a comprehensive visualization of career paths, skills, and internship opportunities across multiple sectors (IT, Finance, Engineering) using force-directed graph layout with advanced navigation controls.
 
+<img width="1920" height="1080" alt="Screenshot 2025-09-24 132331" src="https://github.com/user-attachments/assets/c73d38f3-159a-4c46-bdee-edb4b79cfc63" />
+
 ## 🚀 Key Features
 
 - **🎯 Interactive Career Visualization**: Navigate through 70+ career roles, skills, and internships
