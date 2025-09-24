@@ -240,22 +240,25 @@ vercel --prod
 
 ## 🧰 Tech Stack
 
-- **Next.js 14** - React framework with App Router
-- **TypeScript** - Type safety and developer experience  
-- **TailwindCSS** - Utility-first CSS framework
-- **react-force-graph-2d** - D3.js-based force-directed graphs
-- **react-tooltip** - Interactive hover tooltips
+- **Next.js 14** - React framework with App Router and TypeScript
+- **React 18** - Modern React with hooks and concurrent features
+- **TypeScript** - Type safety and enhanced developer experience  
+- **TailwindCSS** - Utility-first CSS framework with dark mode
+- **react-force-graph-2d** - D3.js-powered force-directed graphs
+- **react-tooltip** - Interactive hover tooltips and information display
 
 ## 🔄 Future Enhancements
 
-- [ ] Node filtering by sector/type
-- [ ] Search functionality
-- [ ] Export graph as image
-- [ ] Animation controls
-- [ ] Custom node shapes
-- [ ] API integration for dynamic data
-- [ ] Breadcrumb navigation
-- [ ] Graph statistics panel
+- [ ] **Multi-Sector Filtering**: Filter nodes by IT, Finance, or Engineering
+- [ ] **Career Path Recommendations**: AI-powered career suggestions
+- [ ] **Skills Gap Analysis**: Identify missing skills for target roles
+- [ ] **Export Functionality**: Save graph as PNG/SVG images
+- [ ] **Search & Highlight**: Find and highlight specific nodes
+- [ ] **Salary Integration**: Show compensation data for roles
+- [ ] **Learning Resources**: Link to courses and certifications
+- [ ] **Company Integration**: Show which companies offer these roles
+- [ ] **Progress Tracking**: Mark completed skills and experiences
+- [ ] **3D Visualization**: Upgrade to 3D force-directed layout
 
 ## 🐛 Known Issues
 
